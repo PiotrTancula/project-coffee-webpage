@@ -1,17 +1,14 @@
 
 //MENU ON THE TOP
 
-
 .home {
 
   display: none;
 
   * > .active {
-    display:active;
+    display: active;
   }
 }
-
-
 
 .menu {
   display: flex;
@@ -123,5 +120,3 @@
   }
 
 }
-
-
