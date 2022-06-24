@@ -1,6 +1,7 @@
 export const select = {
   mainMenuNavLinksSelector: '.menu nav',
-  sections : 'section',
+  sections: '.page',
+  productsPage: '.products.page'
 };
 
 export const classNames = {

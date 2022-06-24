@@ -1,4 +1,5 @@
 import { classNames, select } from './settings.js';
+import Product from './Product.js';
 
 const app = {
 
@@ -52,11 +53,22 @@ const app = {
     console.log(thisApp.pages[2].classList);
   },
 
+  handlebarsTemplateGenerate: function () {
+
+    // eslint-disable-next-line no-unused-vars
+    const thisApp = this;
+
+    // eslint-disable-next-line no-unused-vars
+    const productPage = new Product();
+    console.log(productPage);
+  },
+
 
 
   init: function () {
     const thisApp = this;
     thisApp.initPages();
+    thisApp.handlebarsTemplateGenerate();
 
   }
 
