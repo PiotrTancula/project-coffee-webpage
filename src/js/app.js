@@ -17,7 +17,7 @@ const app = {
     }
 
     for(let section of thisApp.sections){
-      if(section.classList == pageId){
+      if(section.classList.contains(pageId)){
         section.classList.add(classNames.pagesActive);
       }else{
         section.classList.remove(classNames.pagesActive);
