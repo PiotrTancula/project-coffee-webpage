@@ -16,7 +16,7 @@ class Product{
 
     const productSource = document.querySelector('#product-template').innerHTML;
     const tplHello = Handlebars.compile(productSource);
-    const dataHello = {firstName: 'John', lastName: 'Smith'};
+    // const dataHello = {firstName: 'John', lastName: 'Smith'};
     let generatedHTML = tplHello();
     console.log(productSource);
 
@@ -25,7 +25,7 @@ class Product{
     // targetElement.appendChild(generatedHTML);
     console.log(document.querySelector(select.productsPage));
     document.querySelector(select.productsPage).insertAdjacentHTML('beforeend',generatedHTML);
-    document.querySelector(select.productsPage).insertAdjacentHTML('beforeend',generatedHTML);
+    // document.querySelector(select.productsPage).insertAdjacentHTML('beforeend',generatedHTML);
 
 
   }

@@ -7,15 +7,15 @@ const app = {
 
     const thisApp = this;
     thisApp.sections = document.querySelectorAll(select.sections);
-    console.log(thisApp.sections[2].classList);
-    console.log(thisApp.sections);
-    for( let page of thisApp.pages){
-      if(page.id == pageId){
-        page.classList.add(classNames.pagesActive);
-      }else{
-        page.classList.remove(classNames.pagesActive);
-      }
-    }
+    // console.log(thisApp.sections[2].classList);
+    // console.log(thisApp.sections);
+    // for( let page of thisApp.pages){
+    //   if(page.id == pageId){
+    //     page.classList.add(classNames.pagesActive);
+    //   }else{
+    //     page.classList.remove(classNames.pagesActive);
+    //   }
+    // }
 
     for(let section of thisApp.sections){
       if(section.classList.contains(pageId)){

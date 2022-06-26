@@ -1,3 +1,45 @@
-.products {
+.products  {
   display: none;
+}
+
+.products.page {
+  span  {
+    color: $main-color-coffee;
+    font-size: 18vh;
+  }
+
+  span::after {
+    position: absolute;
+    content: '';
+    top: 40%;
+    left: 50%;
+    width: 80%;
+    height: 1vw;
+    transform: translateX(-50%);
+    background: $main-color-coffee;
+  }
+
+  .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container + .container {
+    margin-top: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10vh;
+    color: $main-color-black;
+  }
+
 }
