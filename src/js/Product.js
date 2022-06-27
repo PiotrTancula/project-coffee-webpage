@@ -1,15 +1,19 @@
 import { select } from './settings.js';
+// eslint-disable-next-line no-unused-vars
+import Productsdata from './Productsdata.js';
+// eslint-disable-next-line no-unused-vars
+
 
 
 class Product{
-  constructor() {
+  constructor(param) {
 
     const thisProduct = this;
-    thisProduct.createProduct();
+    thisProduct.createProduct(param);
 
   }
 
-  createProduct(){
+  createProduct(param){
 
     // eslint-disable-next-line no-unused-vars
     const thisProduct = this;
@@ -17,7 +21,7 @@ class Product{
     const productSource = document.querySelector('#product-template').innerHTML;
     const tplHello = Handlebars.compile(productSource);
     // const dataHello = {firstName: 'John', lastName: 'Smith'};
-    let generatedHTML = tplHello();
+    let generatedHTML = tplHello(param);
     console.log(productSource);
 
     // const targetElement = document.body;
