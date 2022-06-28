@@ -4,28 +4,41 @@ import Productsdata from './Productsdata.js';
 
 const app = {
 
-
   initProductsData: function () {
 
     const thisApp = this;
-    thisApp.apiData = {};
 
     for (const productData in thisApp.data.products) {
       new Productsdata(thisApp.data.products[productData].id, thisApp.data.products[productData]);
       console.log(thisApp.data.products[productData].id, thisApp.data.products[productData]);
 
       thisApp.apiData = {
-        id: thisApp.data.products[0].id,
-        title: thisApp.data.products[0].title,
-        desc: thisApp.data.products[0].desc,
-        roasting: thisApp.data.products[0].roasting,
-        intensity: thisApp.data.products[0].intensity,
-        image: thisApp.data.products[0].image,
+        id1: thisApp.data.products[0].id,
+        title1: thisApp.data.products[0].title,
+        desc1: thisApp.data.products[0].desc,
+        roasting1: thisApp.data.products[0].roasting,
+        intensity1: thisApp.data.products[0].intensity,
+        image1: thisApp.data.products[0].image,
+        id2: thisApp.data.products[1].id,
+        title2: thisApp.data.products[1].title,
+        desc2: thisApp.data.products[1].desc,
+        roasting2: thisApp.data.products[1].roasting,
+        intensity2: thisApp.data.products[1].intensity,
+        image2: thisApp.data.products[1].image,
+        id3: thisApp.data.products[2].id,
+        title3: thisApp.data.products[2].title,
+        desc3: thisApp.data.products[2].desc,
+        roasting3: thisApp.data.products[2].roasting,
+        intensity3: thisApp.data.products[2].intensity,
+        image3: thisApp.data.products[2].image,
+
 
       };
+
+      thisApp.handlebarsTemplateGenerate(thisApp.apiData);
+      console.log(thisApp.apiData);
     }
 
-    return thisApp.apiData;
 
   },
 
@@ -99,22 +112,23 @@ const app = {
     console.log(thisApp.pages[2].classList);
   },
 
-  handlebarsTemplateGenerate: function () {
+  handlebarsTemplateGenerate: function (param) {
 
     // eslint-disable-next-line no-unused-vars
     const thisApp = this;
     console.log(thisApp.apiData);
     // eslint-disable-next-line no-unused-vars
-    const productPage = new Product(thisApp.apiData);
+    const productPage = new Product(param);
     console.log(productPage);
   },
 
   init: function () {
     const thisApp = this;
     thisApp.initData();
-    thisApp.initProductsData();
+    // thisApp.initProductsData();
     thisApp.initPages();
-    thisApp.handlebarsTemplateGenerate();
+    // thisApp.handlebarsTemplateGenerate();
+
   }
 
 };

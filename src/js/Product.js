@@ -22,6 +22,7 @@ class Product{
     const tplHello = Handlebars.compile(productSource);
     // const dataHello = {firstName: 'John', lastName: 'Smith'};
     let generatedHTML = tplHello(param);
+    console.log(thisProduct);
     console.log(productSource);
 
     // const targetElement = document.body;
