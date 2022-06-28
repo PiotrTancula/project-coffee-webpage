@@ -32,14 +32,14 @@ const app = {
         intensity3: thisApp.data.products[2].intensity,
         image3: thisApp.data.products[2].image,
 
-
       };
 
-      thisApp.handlebarsTemplateGenerate(thisApp.apiData);
-      console.log(thisApp.apiData);
+
+
     }
+    thisApp.handlebarsTemplateGenerate(thisApp.apiData);
 
-
+    console.log(thisApp.apiData);
   },
 
   initData: function () {
@@ -93,9 +93,9 @@ const app = {
     thisApp.pages = document.querySelector(select.mainMenuNavLinksSelector).children;
 
     thisApp.activatePage(thisApp.pages[0].id);
-    console.log(thisApp.pages[0].classList);
-    console.log(thisApp.pages[1].classList);
-    console.log(thisApp.pages[2].classList);
+    // console.log(thisApp.pages[0].classList);
+    // console.log(thisApp.pages[1].classList);
+    // console.log(thisApp.pages[2].classList);
 
     for (let link of thisApp.pages){
       link.addEventListener('click', function (event) {
@@ -107,9 +107,9 @@ const app = {
 
       });
     }
-    console.log(thisApp.pages[0].classList);
-    console.log(thisApp.pages[1].classList);
-    console.log(thisApp.pages[2].classList);
+    // console.log(thisApp.pages[0].classList);
+    // console.log(thisApp.pages[1].classList);
+    // console.log(thisApp.pages[2].classList);
   },
 
   handlebarsTemplateGenerate: function (param) {

@@ -7,7 +7,7 @@
       "roasting": "5/10",
       "intensity": "6/10",
       "image": [
-        "<img src=\"images/coffee-1.png\">"
+        "coffee-1.png"
       ]
     },
     {
@@ -17,7 +17,7 @@
         "roasting": "8/10",
         "intensity": "9/10",
         "image": [
-            "<img src=\"images/coffee-2.png\">"
+          "coffee-2.png"
           ]
       },
       {
@@ -27,7 +27,7 @@
         "roasting": "3/10",
         "intensity": "7/10",
         "image": [
-            "<img src=\"images/coffee-3.png\">"
+          "coffee-3.png"
           ]
       }
   ]

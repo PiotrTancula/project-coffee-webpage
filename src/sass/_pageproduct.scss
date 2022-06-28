@@ -3,10 +3,15 @@
 }
 
 .products.page {
-  span  {
+  .title  {
     color: $main-color-coffee;
     font-size: 18vh;
   }
+
+  span #numbers {
+  font: $font-size-small;
+  color: $main-color-coffee;
+}
 
   span::after {
     position: absolute;
@@ -44,11 +49,80 @@
 
 }
 
-#product-template{
-  .container {
+.splitcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+  .textcontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-left: $main-padding-left-right;
+    padding-top : $main-padding-top-bottom;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
+    .id {
+      font-size: $font-size-big;
+      color: $main-color-black;
+      font-weight: $font-weight-bold;
+    }
+
+    .linetextbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+
+      .box {
+        height: 8vh;
+        width: 8vh;
+        border-top: 1vh solid $main-color-coffee;
+        margin-right: 2vh;
+      }
+
+      .boxtext{
+        font-size: $font-size-small;
+        flex: 0 0 80%;
+      }
+
+      .detailsbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .rank {
+          font-weight: $font-weight-bold;
+        }
+      }
+
+    }
+
+  }
+
+  .photocontainer {
+
+    flex: 0 0 45%;
+
+    img {
+      padding-top : $main-padding-top-bottom;
+      height: 50vh;
+      width: 50vh;
+    }
   }
 }
+
+.rank {
+  font-weight: $font-weight-bold;
+
+  span.numbers  {
+    color: $main-color-coffee;
+    font-weight: $font-weight-regular;
+  }
+}
+
+
