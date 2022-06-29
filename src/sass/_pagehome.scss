@@ -118,3 +118,31 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+
+  .menu {
+
+    flex-direction: column;
+
+    .header_logo {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    nav {
+      justify-content: flex-end;
+
+      a {
+        padding: 1vh;
+      }
+    }
+
+    h3 {
+      padding-right: 1vw;
+    }
+
+  }
+
+}

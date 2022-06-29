@@ -91,7 +91,7 @@
       <div class="productcontainer">
 
         <div class="splitcontainer">
-          <div class="textcontainer" id="righttextcontainer">
+          <div class="textcontainer" >
             <div class="id"> {{ id1 }} . {{ title1 }}</div>
             <div class="linetextbox">
               <div class="box"></div>
@@ -99,12 +99,17 @@
                 {{ desc1 }}
               </div>
             </div>
-            <div class="detailsbox">
-              <div class="rank">ROASTING:
-                <span class="numbers"> {{ roasting1 }}</span>
+            <div class="detailsbox" id="bestproduct">
+              <div class="rankcontainer">
+                <div class="rank">ROASTING:
+                  <span class="numbers"> {{ roasting1 }}</span>
+                </div>
+                <div class="rank">INTENSITY:
+                  <span class="numbers"> {{ intensity1 }}</span>
+                </div>
               </div>
-              <div class="rank">INTENSITY:
-                <span class="numbers"> {{ intensity1 }}</span>
+              <div class="bestcontainer">
+                <i class="fa-solid fa-ranking-star"></i>
               </div>
             </div>
           </div>
