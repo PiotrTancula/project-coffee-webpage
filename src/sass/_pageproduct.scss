@@ -9,9 +9,9 @@
   }
 
   span #numbers {
-  font: $font-size-small;
-  color: $main-color-coffee;
-}
+    font: $font-size-small;
+    color: $main-color-coffee;
+  }
 
   span::after {
     position: absolute;
@@ -55,8 +55,6 @@
   justify-content: space-between;
   align-items: center;
 
-
-
   .textcontainer {
     display: flex;
     flex-direction: column;
@@ -95,9 +93,6 @@
         flex-direction: column;
         align-items: flex-start;
 
-        .rank {
-          font-weight: $font-weight-bold;
-        }
       }
 
     }
@@ -125,4 +120,30 @@
   }
 }
 
+.productcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.splitcontainer + .splitcontainer > .textcontainer {
+  padding-left: 0px;
+  padding-right: $main-padding-left-right;
+}
+
+.splitcontainer + .splitcontainer > .photocontainer {
+  padding-left: $main-padding-left-right-big;
+
+}
+
+.splitcontainer + .splitcontainer + .splitcontainer > .textcontainer {
+  padding-left: $main-padding-left-right-big;
+  padding-right: 0px;
+}
+
+.splitcontainer + .splitcontainer + .splitcontainer > .photocontainer {
+  padding-left: 0px;
+  padding-right: $main-padding-left-right;
+}
 

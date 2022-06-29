@@ -74,3 +74,7 @@
   }
 }
 
+.splitcontainer + .splitcontainer > .textcontainer {
+  padding-left: 0px;
+}
+
