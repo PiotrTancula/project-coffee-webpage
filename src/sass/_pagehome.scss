@@ -121,7 +121,6 @@
 
 
 @media (max-width: 768px) {
-
   .menu {
 
     flex-direction: column;
@@ -143,6 +142,10 @@
       padding-right: 1vw;
     }
 
+  }
+
+  .splashscreen {
+    height: 92vh;
   }
 
 }

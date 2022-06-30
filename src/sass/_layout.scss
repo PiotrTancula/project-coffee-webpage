@@ -4,3 +4,44 @@
   padding: 0 $main-padding-left-right;
 }
 
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+
+}
+
+@media (min-width: 1000px){
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .contactus .opacity {
+    top: 11vh;
+    height: 91vh;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .contactus .opacity {
+    top: 10vh;
+    height: 91vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contactus .opacity {
+    top: 9vh;
+    height: 91vh;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}
