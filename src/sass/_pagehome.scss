@@ -119,6 +119,19 @@
   }
 }
 
+@media (min-width: 1370px) and (max-width: 1380px) {
+  span::after {
+    position: absolute;
+    content: '';
+    top: 66%;
+    left: 46%;
+    width: 20%;
+    height: 1vw;
+    transform: translateX(-50%);
+    background: $main-color-coffee;
+  }
+}
+
 @media (max-width: 768px) {
   .menu {
 
@@ -140,6 +153,8 @@
     h3 {
       padding-right: 1vw;
     }
+
+
   }
 
   .splashscreen {
