@@ -74,6 +74,18 @@
   }
 }
 
+footer {
+  width: 100%;
+  height: 1vh;
+  margin: auto;
+
+  p {
+    text-align: center;
+    margin: 0px;
+  }
+
+}
+
 @media (max-width: 699px) {
   .contactus span {
     font-size: 12vw;
@@ -159,13 +171,13 @@
 
   .contactus .opacity {
     top: 12vh;
-    height:90vh;
+    height: 90vh;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .contactus span {
-    font-size: 12vw;
+    font-size: 8vw;
   }
 
   .contactus .container + .container {
@@ -179,5 +191,16 @@
 
   .container {
     max-width: 1200px;
+  }
+
+  .aboutusscreen {
+    height: 91vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .contactus .opacity {
+    top: 10vh;
+    height: 91vh;
   }
 }

@@ -88,10 +88,11 @@
         flex: 0 0 80%;
       }
 
-      .detailsbox {
+      .detailsbox  {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: space-between;
 
       }
 
@@ -147,6 +148,28 @@
   padding-right: $main-padding-left-right;
 }
 
+.detailsbox  {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+
+
+
+  .bestcontainer {
+    width:4vw;
+    height: 4vw;
+    margin-left: 16vw;
+  }
+
+  .bestcontainer .bestcoffee {
+    background-image: url('../images/bestcoffee.png');
+    background-position: center center;
+    background-size: cover;
+    height: 10vw;
+    width: 10vw;
+  }
+}
 
 //  #bestproduct{
 //   display: flex;
@@ -204,6 +227,14 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1024px) {
+  .splitcontainer + .splitcontainer > .textcontainer {
+    padding-left: 2vw;
+  }
+}
 
+@media (min-width: 600px) and (max-width: 768px) {
+  .bestcontainer {
+    margin-bottom: 6vw;
+  }
 }

@@ -120,6 +120,7 @@
 }
 
 
+
 @media (max-width: 768px) {
   .menu {
 
@@ -148,4 +149,81 @@
     height: 92vh;
   }
 
+}
+
+@media (min-width: 768px) {
+  .splashscreen {
+    height: 91vh;
+  }
+}
+
+@media (max-width: 1023px) {
+  .splashscreen .container .two {
+    margin-right: -10vw;
+  }
+
+  .splashscreen .container .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .splashscreen .container .discover {
+    margin-right: -16vw;
+  }
+}
+
+@media ( max-width: 1022px) {
+  .splashscreen .container .two {
+    margin-right: 0px;
+  }
+
+  .splashscreen .container .discover {
+    margin-right: -2vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .splashscreen .container .two {
+    margin-right: 0px;
+  }
+
+  .splashscreen .container .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .splashscreen .container .discover {
+    margin-right: -2vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  .splashscreen .container .two {
+    margin-right: -10vw;
+  }
+
+  .splashscreen .container .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .splashscreen .container .discover {
+    margin-right: -16vw;
+  }
+}
+
+@media(min-width: 1440px) {
+  .splashscreen .container .two {
+    margin-right: -18vw;
+  }
+
+  .splashscreen .container .discover {
+    margin-right: -25vw;
+  }
 }
