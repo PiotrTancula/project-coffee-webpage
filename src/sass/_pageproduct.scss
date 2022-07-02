@@ -131,6 +131,10 @@
 .splitcontainer + .splitcontainer > .textcontainer {
   padding-left: 0px;
   padding-right: $main-padding-left-right;
+
+  .detailsbox {
+    flex-direction: column;
+  }
 }
 
 .splitcontainer + .splitcontainer > .photocontainer {
@@ -146,6 +150,10 @@
 .splitcontainer + .splitcontainer + .splitcontainer > .photocontainer {
   padding-left: 0px;
   padding-right: $main-padding-left-right;
+
+  .detailsbox {
+    flex-direction: column;
+  }
 }
 
 .detailsbox  {
