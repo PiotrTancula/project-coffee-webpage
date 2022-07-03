@@ -32,7 +32,7 @@ class Product{
     document.querySelector(select.productsPage).insertAdjacentHTML('beforeend',generatedHTML);
     // document.querySelector(select.productsPage).insertAdjacentHTML('beforeend',generatedHTML);
 
-
+    document.querySelector(select.homePage).insertAdjacentHTML('afterend',generatedHTML);
   }
 }
 

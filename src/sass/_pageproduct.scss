@@ -13,16 +13,16 @@
     color: $main-color-coffee;
   }
 
-  span::after {
-    position: absolute;
-    content: '';
-    top: 40%;
-    left: 50%;
-    width: 80%;
-    height: 1vw;
-    transform: translateX(-50%);
-    background: $main-color-coffee;
-  }
+  // span::after {
+  //   position: absolute;
+  //   content: '';
+  //   top: 40%;
+  //   left: 50%;
+  //   width: 80%;
+  //   height: 1vw;
+  //   transform: translateX(-50%);
+  //   background: $main-color-coffee;
+  // }
 
   .clearfix::after {
     content: '';
@@ -35,6 +35,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+
   }
 
   .container + .container {
@@ -165,7 +167,7 @@
   .bestcontainer {
     width: 4vw;
     height: 4vw;
-    margin-left: 16vw;
+    margin-left: 12vw;
   }
 
   .bestcontainer .bestcoffee {
