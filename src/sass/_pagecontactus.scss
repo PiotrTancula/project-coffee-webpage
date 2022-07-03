@@ -22,12 +22,12 @@
   //   background-color: rgba(0, 0, 0, 0.704);
   // }
 
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+  // .container {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 
   span {
     color: $main-color-coffee;
@@ -85,6 +85,25 @@ footer {
   }
 
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+
+  input {
+    width: 40vw;
+
+  }
+
+  textarea {
+    width: 40vw;
+    height: 10vw;
+  }
+}
+
 
 @media (max-width: 699px) {
   .contactus span {

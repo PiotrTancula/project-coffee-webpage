@@ -2,7 +2,8 @@ export const select = {
   mainMenuNavLinksSelector: '.menu nav',
   sections: '.page',
   productsPage: '.products.page',
-  homePage: '.splashscreen'
+  homePage: '.splashscreen',
+  submitButton: '.submitbutton'
 };
 
 export const classNames = {

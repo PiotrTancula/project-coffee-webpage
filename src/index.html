@@ -68,16 +68,10 @@
               <div class="join">Join us !</div>
             </div>
           </div>
-
-
-        </div>
+          </div>
         <footer>
           <p>© 2022</p>
         </footer>
-
-
-
-
      </section>
 
      <section class="products page">
@@ -85,7 +79,16 @@
      </section>
 
      <section class="contactus page">
-
+      <div class="container">
+        <h1 class="container-title">Contact us</h1>
+            <form class="contactform">
+                <input type="text" id="fname" name="name" placeholder="Your name and surname">
+                <input type="email" id="email" name="email" placeholder="Your email">
+                <input type="text" id="text" name="subject" placeholder="Subject">
+                <textarea class="contact-input" id="subject" name="subject" placeholder="Type your message here"></textarea>
+                <button type="submit" value="Submit" class="submitbutton">Send message</button>
+            </form>
+       </div>
      </section>
 
 
@@ -174,13 +177,8 @@
             <img src="./images/{{image3}}" alt="img3">
           </div>
         </div>
-
       </div>
-
     </script>
-
-
-
      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
      <script src="js/app.js" type="module"></script>
 </body>

@@ -123,6 +123,11 @@ const app = {
   },
 
   init: function () {
+
+    document.querySelector(select.submitButton).addEventListener('click', function (e) {
+      e.preventDefault();
+    });
+
     const thisApp = this;
     thisApp.initData();
     // thisApp.initProductsData();
