@@ -246,3 +246,11 @@
     margin-bottom: 6vw;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .photocontainer {
+    img {
+      padding-right: 1vw;
+    }
+  }
+}
