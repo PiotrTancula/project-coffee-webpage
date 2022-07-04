@@ -104,6 +104,27 @@ form {
   }
 }
 
+.contactus .container h1 {
+  color: $main-color-coffee;
+  font-family: $font-main;
+  display: inline-block;
+  border-bottom: 1vw solid $main-color-coffee;
+  width: 70vw;
+  font-size: 5vw;
+  margin-top: 2vh;
+}
+
+input::placeholder {
+  font-family: $font-main;
+}
+
+textarea::placeholder {
+  font-family: $font-main;
+}
+
+button {
+  font-family: $font-main;
+}
 
 @media (max-width: 699px) {
   .contactus span {
@@ -222,14 +243,4 @@ form {
     top: 10vh;
     height: 91vh;
   }
-}
-
-.contactus .container h1 {
-  color: $main-color-coffee;
-  font-family: $font-main;
-  display: inline-block;
-  border-bottom: 1vw solid $main-color-coffee;
-  width: 70vw;
-  font-size: 5vw;
-  margin-top: 2vh;
 }
