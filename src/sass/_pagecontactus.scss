@@ -94,12 +94,12 @@ form {
   gap: 1vw;
 
   input {
-    width: 40vw;
+    width: 96%;
 
   }
 
   textarea {
-    width: 40vw;
+    width: 96%;
     height: 10vw;
   }
 }
@@ -222,4 +222,14 @@ form {
     top: 10vh;
     height: 91vh;
   }
+}
+
+.contactus .container h1 {
+  color: $main-color-coffee;
+  font-family: $font-main;
+  display: inline-block;
+  border-bottom: 1vw solid $main-color-coffee;
+  width: 70vw;
+  font-size: 5vw;
+  margin-top: 2vh;
 }
