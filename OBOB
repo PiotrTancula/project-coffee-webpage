@@ -1,0 +1,173 @@
+[33mcommit c604aa1808829f34d7ca5588555173f1b2d6002d[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Tue Jul 5 16:45:02 2022 +0200
+
+    setting up for deloy
+
+[33mcommit 298a721046ac400e74b102cd52733103e20e670d[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Mon Jul 4 19:50:29 2022 +0200
+
+    subpages 2k resolutions fixes
+
+[33mcommit e991d4beae2dc4797fb82cb9620fa85cc1959767[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Mon Jul 4 19:41:47 2022 +0200
+
+    2k resolution fixes
+
+[33mcommit 3b2ce1fb3a8009933189e799f4be961b0c9d1d1a[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Mon Jul 4 18:22:30 2022 +0200
+
+     contact page corrections
+
+[33mcommit e94685d14118a38c029b4793d734ee77129f19d1[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Mon Jul 4 16:56:45 2022 +0200
+
+    minor contact us section updates
+
+[33mcommit 6711d39eadaafd1662f35eff1d1d0cdcd16f66ff[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Mon Jul 4 16:40:18 2022 +0200
+
+    contact page minor corrections
+
+[33mcommit bdb12ae68583b9130ceb96df9259a8345dab57a7[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sun Jul 3 14:08:57 2022 +0200
+
+     minor fixes
+
+[33mcommit b577b32a442dd3552758ef0d02077b6984edbd3b[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sun Jul 3 13:55:49 2022 +0200
+
+    webpage is working now
+
+[33mcommit ac38933014f6829ec94333a56a22d5380fa89216[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sun Jul 3 13:33:03 2022 +0200
+
+     several subpages corrections
+
+[33mcommit 73469a581d426eef10023b57ae0a8589c738bdcb[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sat Jul 2 09:30:54 2022 +0200
+
+    more minor homepage fixes
+
+[33mcommit c7899d1d9a9270da27585220a0b7880e1966e16b[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sat Jul 2 08:55:04 2022 +0200
+
+     minor product page resolution fixes
+
+[33mcommit 03e1696d2e50dfd08173eb91fefc6d0b65f8537b[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sat Jul 2 08:31:23 2022 +0200
+
+    homepage resolution fixes
+
+[33mcommit 2dd295238974366a6434eed2bad59b37282760ff[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sat Jul 2 08:21:31 2022 +0200
+
+    minor fixes
+
+[33mcommit 4f16d88c0e6b02c004bb3c4f50b5c2d03f1622f4[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sat Jul 2 08:19:23 2022 +0200
+
+    rwd has been done
+
+[33mcommit 0ef05bca7f0cb7bcef337f0c959bd4a9ebec3151[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Thu Jun 30 18:43:26 2022 +0200
+
+     rwd nearly complete
+
+[33mcommit b67183d5ba0dbdc3e818113efc28f89e8ff16368[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Wed Jun 29 19:12:14 2022 +0200
+
+     homepage is responsive
+
+[33mcommit ff034ef5b31bc82eb431c74f17f2ba458dc410cf[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Wed Jun 29 18:18:06 2022 +0200
+
+     products page working
+
+[33mcommit 2af3879a94893973266b1d4c4d7ee0a16717ff62[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Tue Jun 28 21:02:24 2022 +0200
+
+    first product is available
+
+[33mcommit 3ad4acbd971c04daf610140f383efd4e4a1f2438[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Tue Jun 28 18:47:34 2022 +0200
+
+    template issue
+
+[33mcommit 8869e4261642877098f26f7a1be378a26b2af6b9[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Mon Jun 27 19:08:33 2022 +0200
+
+     handlebars template issues
+
+[33mcommit 6647fc59323e9ad019f53d9fb535fa45f47f1021[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sun Jun 26 09:45:18 2022 +0200
+
+    minor json database updates
+
+[33mcommit 9ae2dcad5bb018375f99536979c5059fb884eb52[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Sun Jun 26 09:38:01 2022 +0200
+
+    added json database to collect the data
+
+[33mcommit 675cc9a89eabe5ecc50447345f3666728f29f1ba[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Fri Jun 24 16:58:56 2022 +0200
+
+    products page work in progress
+
+[33mcommit a446c33536ba4f9e13ac4fa450f6ae8a8e5173c4[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Fri Jun 24 08:45:31 2022 +0200
+
+    contact us page works
+
+[33mcommit 4d088a66578d3b69a7d4fe346ab8be023d0ff12b[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Fri Jun 24 07:55:01 2022 +0200
+
+     page switch is working now
+
+[33mcommit 8b27fe4e812edc23c7b0043059a32bcb13ba9fa2[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Thu Jun 23 13:38:01 2022 +0200
+
+    contact us page work in progress
+
+[33mcommit 775e50301cb673b5ce05c3ca9dc730df5caed675[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Thu Jun 23 12:54:42 2022 +0200
+
+     minor fixes
+
+[33mcommit 64182eab381c2ade0c6e50798bf14f1b3fbcbc28[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Thu Jun 23 12:20:04 2022 +0200
+
+    home page is present && you can switch the pages
+
+[33mcommit 0c14d625854828a06539e4bd3fd49a9762fba0dd[m
+Author: Piotr Tańcula <tanculapiotr@gmail.com>
+Date:   Tue Jun 21 17:50:44 2022 +0200
+
+    init commit
