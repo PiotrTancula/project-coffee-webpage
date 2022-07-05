@@ -43,11 +43,11 @@
         "postcss": "^8.2.6",
         "postcss-cli": "^8.3.1",
         "rimraf": "^3.0.2",
-        "stylelint": "^14.9.1"
-        // "stylelint-scss": "^3.5.4"
+        "stylelint": "^14.9.1",
+        "stylelint-scss": "^3.5.4"
     },
     "dependencies": {
-        "http-server": "^14.1.1",
+
         "json-server": "^0.4.2",
         "sass": "^1.35.1"
     }
