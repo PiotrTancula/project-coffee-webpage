@@ -50,10 +50,6 @@
         "http-server": "^14.1.1",
         "json-server": "^0.4.2",
         "sass": "^1.35.1"
-    },
-    "engines": {
-          "node": "16.x",
-          "npm": "6.x"
-        }
+    }
 
 }
