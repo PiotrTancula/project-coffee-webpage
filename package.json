@@ -43,7 +43,7 @@
         "postcss": "^8.2.6",
         "postcss-cli": "^8.3.1",
         "rimraf": "^3.0.2",
-        "stylelint": "^14.9.1",
+        "stylelint": "^13.0.0",
         "stylelint-scss": "^3.5.4"
     },
     "dependencies": {
@@ -51,5 +51,4 @@
         "json-server": "^0.4.2",
         "sass": "^1.35.1"
     }
-
 }
