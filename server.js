@@ -13,3 +13,4 @@ server.use(router);
 server.listen(port);
 
 // "test:scss": "stylelint --fix src/sass/",
+// "test:scss": "stylelint --fix src/sass/",
