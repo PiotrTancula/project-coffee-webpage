@@ -14,3 +14,4 @@ server.listen(port);
 
 // "test:scss": "stylelint --fix src/sass/",
 // "test:scss": "stylelint --fix src/sass/",
+// "watch:sassprefixer": "onchange \"src/sass/**/*.scss\" -- npm run build-dev",
